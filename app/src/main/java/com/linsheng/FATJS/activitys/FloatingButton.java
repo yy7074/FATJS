@@ -83,7 +83,7 @@ public class FloatingButton extends Service {
         ll = new LinearLayout(context);
 
         txtParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        btnTextView.setText("FATJS");
+        btnTextView.setText("YYJS");
         btnTextView.setTextSize((float) (text_size + 2));
         btnTextView.setGravity(Gravity.CENTER); //文字居中
         btnTextView.setTextColor(Color.argb(255,255,255,255));
@@ -133,7 +133,7 @@ public class FloatingButton extends Service {
         //private int offset_y = (mHeight / 8);
         parameters.y = 0;
         parameters.gravity = Gravity.RIGHT | Gravity.TOP;
-        parameters.setTitle("FATJS");
+        parameters.setTitle("YYJS");
         setTypePhone(parameters);
 
         // 添加元素到面板
@@ -179,7 +179,7 @@ public class FloatingButton extends Service {
         smallParams1.x = parameters.x;
         smallParams1.y = parameters.y + (2 * (btn_w * 6 / 5));
         smallParams1.gravity = Gravity.RIGHT | Gravity.TOP;
-        smallParams1.setTitle("FATJS");
+        smallParams1.setTitle("YYJS");
 
         smallLL1.addView(smallCircle1);
         wm.addView(smallLL1, smallParams1);
@@ -222,7 +222,7 @@ public class FloatingButton extends Service {
         smallParams2.x = parameters.x;
         smallParams2.y = parameters.y + (btn_w * 6 / 5);
         smallParams2.gravity = Gravity.RIGHT | Gravity.TOP;
-        smallParams2.setTitle("FATJS");
+        smallParams2.setTitle("YYJS");
 
         smallLL2.addView(smallCircle2);
         wm.addView(smallLL2, smallParams2);
@@ -261,7 +261,7 @@ public class FloatingButton extends Service {
         smallParams3.x = parameters.x;
         smallParams3.y = parameters.y + (3 * (btn_w * 6 / 5));
         smallParams3.gravity = Gravity.RIGHT | Gravity.TOP;
-        smallParams3.setTitle("FATJS");
+        smallParams3.setTitle("YYJS");
 
         smallLL3.addView(smallCircle3);
         wm.addView(smallLL3, smallParams3);
@@ -296,7 +296,7 @@ public class FloatingButton extends Service {
         smallParams4.x = parameters.x;
         smallParams4.y = parameters.y + (4 * (btn_w * 6 / 5));
         smallParams4.gravity = Gravity.RIGHT | Gravity.TOP;
-        smallParams4.setTitle("FATJS");
+        smallParams4.setTitle("YYJS");
 
         smallLL4.addView(smallCircle4);
         wm.addView(smallLL4, smallParams4);
@@ -453,7 +453,7 @@ public class FloatingButton extends Service {
                         if (!isMoving) {
                             // v.performClick(); // 触发点击事件
                             if (DEV_MODE) {
-                                // FATJS 的开发者模式
+                                // YYJS 的开发者模式
                                 testMethodPre();
                             } else {
                                 // btnClick(); // 改变悬浮窗大小
